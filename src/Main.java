@@ -1,25 +1,23 @@
-import clients.*;
-import java.time.LocalDate;
+import clinic.VeterinaryClinic;
+import clinic.clients.*;
+import clinic.clients.pets.suborder.*;
+import clinic.staff.profession.Doctor;
+import clinic.staff.profession.Nurse;
 
 public class Main {
     public static void main(String[] args) {
-        Animal lion = new Lion("Лёва", 180, LocalDate.of
-                (2015, 9, 14), new Owner());
-        lion.fly();
-        Animal parrot = new Parrot("Кеша", 0.1f, LocalDate.of
-                (2022, 4, 5), new Owner());
-        parrot.swim();
-        Animal bear = new Bear("Миша", 400, LocalDate.of
-                (2009, 3, 8), new Owner());
-        bear.fly();
-        Animal goose = new Goose("Тато", 2.5f, LocalDate.of
-                (2021, 5, 26), new Owner());
-        goose.toGo();
-        Animal kangaroo = new Kangaroo("Боксёр", 45, LocalDate.of
-                (2012, 6, 18), new Owner());
-        kangaroo.fly();
-        Animal dog = new Dog("Шарик", 6, LocalDate.of
-                (2016, 5, 11), new Owner());
-        dog.fly();
+        VeterinaryClinic vetClinic = new VeterinaryClinic();
+        Doctor doc = new Doctor("Док");
+        vetClinic.hireEmployee(doc);
+        Nurse nurse = new Nurse("Медсестра");
+        vetClinic.hireEmployee(nurse);
+        Dog patient = new Dog("Пёс", new Owner("Владелец"));
+        vetClinic.admitPatient(patient);
+        System.out.println(doc.setDiagnose("Ушиб", patient));
+        System.out.println(vetClinic.giveBonuse(doc, "Заслуженная награда"));
+        System.out.println(nurse.giveAnInjection(patient, "вакцина"));
+        System.out.println(String.format("%s бежит со скоростью %f", patient.getName(), patient.run()));
+        System.out.println(vetClinic.getAllSwimmable());
+        System.out.println(vetClinic.getAllDoctors());
     }
 }
