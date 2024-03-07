@@ -2,37 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d119298a-4a2c-498d-9d99-87b635717cde" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/OOP_lesson1.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/clinic/VeterinaryClinic.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/clinic/clients/pets/Animal.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/clinic/clients/pets/actions/Flyable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/clinic/clients/pets/actions/Swimmable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/clinic/clients/pets/actions/Walkable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/clinic/clients/pets/suborder/Bear.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/clinic/clients/pets/suborder/Dog.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/clinic/clients/pets/suborder/Goose.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/clinic/clients/pets/suborder/Kangaroo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/clinic/clients/pets/suborder/Lion.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/clinic/clients/pets/suborder/Parrot.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/clinic/staff/Employee.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/clinic/staff/profession/Doctor.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/clinic/staff/profession/Nurse.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/readme.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/clients/Animal.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/clients/Bear.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/clients/Dog.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/clients/Goose.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/clients/Kangaroo.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/clients/Lion.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/clients/Owner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/clinic/clients/Owner.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/clients/Parrot.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,13 +32,13 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "D:/prog/IdeaProjects/OOP_lesson1"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/prog/IdeaProjects/OOP_lesson1&quot;
   }
-}]]></component>
+}</component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
